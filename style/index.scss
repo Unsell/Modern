@@ -1,0 +1,89 @@
+@import 'common';
+
+header{
+    height: 5em;
+    background-color: $primary-color;
+}
+.action{
+    .action-button{
+    	margin: 0 auto;
+    	margin-top: 2em;
+    	box-shadow:  0 5px 25px #666;
+    }
+    .add-button{
+    	margin: 1em auto;
+    	height: 2em;
+    	width: 2em;
+    	border-radius: 50%;
+    	box-shadow:  0 5px 10px #aaa;
+    	color: white;
+    	font-size: 3em;
+    	line-height: 2em;
+    	text-align: center;
+    }
+    .add-button:hover{
+    	background-color: #aaa;
+    	transform: all ease .3;
+    	/* style */
+    }
+}
+.haoduo{
+    background-color: $primary-color;
+    h2{
+    	margin-top: 2em;
+    	color: $primary-color-text;
+    	text-align: center;
+    	font-weight: normal;
+    }
+    p{
+    	text-align: center;
+    	color: $primary-color-text;
+    	opacity: .8;
+    }
+    a.visit-haoduo{
+    	display: block;
+    	width: 6em;
+    	text-align: center;
+    	padding: .8em;
+		margin: 1.5em auto;
+		font-size: .8em;
+		color: $primary-color-text;
+		background-color: $primary-color-dark;
+		border-radius: 1em;
+    }
+}
+.Scenerys{
+    .scenery{
+    	@media (min-width: 600px){
+			width: 33.3333%;
+			float: left;
+			.cover{
+				width: 85%;
+	    	}
+    	}
+    	padding: 2em;
+    	.cover{
+    		@media (min-width: 600px){
+				width: 95%;
+	    	}
+    		display: block;
+    		margin: 0 auto;
+    		width: 70%;
+    	}
+    }
+}
+footer{
+    height: 5em;
+    background-color: #212121;
+	color: $secondary-text-color;
+	text-align: center;
+	line-height: 5em;
+}
+
+
+
+
+
+
+
+

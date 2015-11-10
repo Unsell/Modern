@@ -1,0 +1,32 @@
+{
+  "name": "devil",
+  "version": "1.0.0",
+  "description": "Modern study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unsell/Modern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unsell/Modern/issues"
+  },
+  "homepage": "https://github.com/Unsell/Modern#readme",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.1.0",
+    "css-loader": "^0.22.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.1.0",
+    "react": "^0.14.2",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.3"
+  }
+}
